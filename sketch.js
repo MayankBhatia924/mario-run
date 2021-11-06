@@ -8,11 +8,11 @@ var WIN=2;
 var gameState=PLAY;
 function preload()
 {
-  marioAnimation=loadAnimation("images/Capture1.png","images/Capture4.png","images/Capture3.png");
-  obstacleAnimation=loadAnimation("images/obstacle1.png");
-  wallAnimation=loadAnimation("images/wall.png");
-  groundAnimation=loadAnimation("images/ground.png");  
-  flagAnimation=loadAnimation("images/Flag.png");
+  marioAnimation=loadAnimation("Capture1.png","Capture4.png","Capture3.png");
+  obstacleAnimation=loadAnimation("obstacle1.png");
+  wallAnimation=loadAnimation("wall.png");
+  groundAnimation=loadAnimation("ground.png");  
+  flagAnimation=loadAnimation("Flag.png");
 }
 
 function setup() {
